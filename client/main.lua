@@ -661,26 +661,6 @@ AddEventHandler('esx_jengi:OutVehicle', function(t)
 end)
 
 Citizen.CreateThread(function()
-
-  for k,v in pairs(Config.JengiPaikka) do
-
-    local blip = AddBlipForCoord(v.Blip.Pos.x, v.Blip.Pos.y, v.Blip.Pos.z)
-
-    SetBlipSprite (blip, v.Blip.Sprite)
-    SetBlipDisplay(blip, v.Blip.Display)
-    SetBlipScale  (blip, v.Blip.Scale)
-    SetBlipColour (blip, v.Blip.Colour)
-    SetBlipAsShortRange(blip, true)
-
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString(_U('map_blip'))
-    EndTextCommandSetBlipName(blip)
-
-  end
-
-end)
-
-Citizen.CreateThread(function()
   while true do
 
     Wait(0)
@@ -957,11 +937,12 @@ Citizen.CreateThread(function()
 
         CurrentAction = nil
         GUI.Time      = GetGameTimer()
+		end
 
       end
 
     end
-	
+
   end
-  
+
 end)
