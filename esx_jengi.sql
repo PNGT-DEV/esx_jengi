@@ -21,5 +21,5 @@ INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_
 ('jengi', 5, 'boss', 'VaraPomo', 150, '{}', '{}'),
 ('jengi', 6, 'boss', 'Pomo', 150, '{}', '{}');
 
--- Vaiha tikkipalkat ennen lisäämistä :) "kelan tikkipalkat"
+-- Vaiha tikkipalkat ennen lisäämistä :)
 -- Ja vaihda jengin nimi :)
