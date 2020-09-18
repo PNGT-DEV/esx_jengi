@@ -12,14 +12,6 @@ Config.JengiPaikka = {
 
   Mafia = {
 
-    Blip = {
-        Pos     = { x = 425.130, y = -979.558, z = 30.711 },
-        Sprite  = 60,
-        Display = 4,
-        Scale   = 1.2,
-        Colour  = 29,
-    },
-
     AuthorizedWeapons = {
         { name = 'WEAPON_SNSPISTOL',       price = 9000 },
     },
@@ -29,28 +21,27 @@ Config.JengiPaikka = {
 	},
 
     Cloakrooms = {
-        { x = 9.283, y = 528.914, z = 169.635 },
+        { x = -1150.5, y = -1513.15, z = 9.63 },
     },
 
     Armories = {
-        { x = 1.550, y = 527.397, z = 169.617 },
+        { x = -1152.87, y = -1516.73, z = 9.63 },
     },
 
     Vehicles = {
         {
-			Spawner    = { x = 13.40, y = 549.1, z = 175.187 },
-			SpawnPoint = { x = 8.237, y = 556.963, z = 175.266 },
-			Heading    = 90.0,
+			Spawner    = { x = -1151.18, y = -1519.46, z = 3.36 },
+			SpawnPoint = { x = -1155.71, y = -1520.14, z = 3.35 },
+			Heading    = 36.02,
         }
     },
 
     VehicleDeleters = {
-        { x = 22.74, y = 545.9, z = 175.027 },
-        { x = 21.35, y = 543.3, z = 175.027 },
+        { x = -1150.03, y = -1531.98, z = 3.25 },
     },
 
     BossActions = {
-        { x = 4.113, y = 526.897, z = 173.628 }
+        { x = -1156.9, y = -1524.38, z = 9.63 }
     },
 
   },
