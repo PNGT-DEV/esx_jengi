@@ -6,7 +6,7 @@ if Config.MaxInService ~= -1 then
   TriggerEvent('esx_service:activateService', 'jengi', Config.MaxInService)
 end
 
-TriggerEvent('esx_society:registerSociety', 'jengi', 'Jengi', 'society_jengi', 'society_jengi', 'society_jengi', {type = 'public'})
+TriggerEvent('esx_society:registerSociety', 'jengi', 'Jengi', 'society_jengi', 'society_jengi', 'society_jengi', {type = 'whitelisted'})
 
 RegisterServerEvent('esx_jengi:giveWeapon')
 AddEventHandler('esx_jengi:giveWeapon', function(weapon, ammo)
